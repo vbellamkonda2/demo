@@ -12,4 +12,9 @@ public class TestController {
 	public String sayHello() {
 		return "Welcome to Demo";
 	}
+	
+	@GetMapping("/hi")
+	public String sayHi() {
+		return "Welcome to Phase2";
+	}
 }
